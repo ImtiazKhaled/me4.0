@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/me4.0/static/css/main.ea1c20fb.css",
+    "main.js": "/me4.0/static/js/main.2b778b5f.js",
+    "static/media/rainyhearts.ttf": "/me4.0/static/media/rainyhearts.2f088ce263e644a4a5a6.ttf",
+    "index.html": "/me4.0/index.html",
+    "main.ea1c20fb.css.map": "/me4.0/static/css/main.ea1c20fb.css.map",
+    "main.2b778b5f.js.map": "/me4.0/static/js/main.2b778b5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea1c20fb.css",
+    "static/js/main.2b778b5f.js"
+  ]
+}
