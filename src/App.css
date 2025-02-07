@@ -1,31 +1,34 @@
-@import '~antd/dist/antd.css';
+@import "antd/dist/reset.css";
+
+body {
+  --main-background-color: #84a98c;
+  --text-color: #cad2c5;
+  --link-text-color: #6c584c;
+  --link-background-color: #a98467;
+  --font-size: 36px;
+  --footer-font-size: 16px
+}
 
 .quick-info {
   text-align: right;
 }
 
-.bottom {
-  /* position: absolute; */
-  /* bottom: 0px; */
-}
-
 .container {
+  background: var(--main-background-color);
   min-height: 100vh;
-  background: rgb(219, 255, 164);
+  padding: 10px;
 }
 
 .ant-typography {
-  background: -webkit-radial-gradient(circle, rgba(33,36,0,1) 0%, rgba(255,149,64,1) 0%, rgba(251,41,4,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--text-color) !important;
   font-family: "Pixel";
   margin-bottom: 0;
 }
 
 .link {
-  background: -webkit-radial-gradient(circle, rgba(33,36,0,1) 0%, rgba(27,39,255,1) 0%, rgba(4,17,251,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: var(--font-size);
+  color: var(--link-text-color) !important;
+  background-color: var(--link-background-color) !important;
 }
 
 .App {
@@ -44,18 +47,31 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: var(--font-size)
 }
 
-.App-link {
-  color: #61dafb;
+.bottom-icons {
+  font-size: var(--footer-font-size);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  .bottom-text {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: var(--footer-font-size);
+  }
 }
 
 @keyframes App-logo-spin {
