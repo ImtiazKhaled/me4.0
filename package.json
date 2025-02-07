@@ -1,6 +1,7 @@
 {
   "name": "me4.0",
   "version": "0.1.0",
+  "homepage": "https://imtiazkhaled.github.io/me4.0",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.6.0",
@@ -14,6 +15,8 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
