@@ -1,10 +1,10 @@
 @import "antd/dist/reset.css";
 
 body {
-  --main-background-color: #84a98c;
-  --text-color: #cad2c5;
-  --link-text-color: #6c584c;
-  --link-background-color: #a98467;
+  --main-background-color: #e8fccf;
+  --text-color: #134611;
+  --link-text-color: #96e072;
+  --link-background-color: #3e8914;
   --font-size: 36px;
   --footer-font-size: 16px
 }
@@ -17,11 +17,13 @@ body {
   background: var(--main-background-color);
   min-height: 100vh;
   padding: 10px;
+
+  font-family: "Ubuntu";
+  font-weight: normal !important;
 }
 
 .ant-typography {
   color: var(--text-color) !important;
-  font-family: "Pixel";
   margin-bottom: 0;
 }
 
