@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a4c1550.css",
-    "main.js": "/static/js/main.cc50f188.js",
-    "static/media/rainyhearts.ttf": "/static/media/rainyhearts.2f088ce263e644a4a5a6.ttf",
+    "main.css": "/static/css/main.5a055fa5.css",
+    "main.js": "/static/js/main.6434c7cb.js",
     "index.html": "/index.html",
-    "main.0a4c1550.css.map": "/static/css/main.0a4c1550.css.map",
-    "main.cc50f188.js.map": "/static/js/main.cc50f188.js.map"
+    "main.5a055fa5.css.map": "/static/css/main.5a055fa5.css.map",
+    "main.6434c7cb.js.map": "/static/js/main.6434c7cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a4c1550.css",
-    "static/js/main.cc50f188.js"
+    "static/css/main.5a055fa5.css",
+    "static/js/main.6434c7cb.js"
   ]
 }
